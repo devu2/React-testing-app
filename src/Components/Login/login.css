@@ -1,0 +1,146 @@
+html, body {
+    font-family: "Roboto"
+}
+
+.input100 {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 32px;
+    border-style: none;
+    border-bottom: 2px solid rgba(17, 16, 16, 0.24);
+    background: transparent;
+    padding: 0 5px 0 38px;
+  
+  }
+.container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+.login{
+    background-color: white;
+    height: 92vh;
+}
+
+.login .loginCont{
+    position: absolute;
+    width: 30%;
+    height: 60vh;
+    z-index: 15;
+    top: 15%;
+    left: 35%;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 5px grey; 
+}
+.wrap-input100 {
+    width: 90%;
+    position: relative;
+    margin: 10% 5% auto;
+  }
+
+  .wrap-input100  input:focus {
+    border-style: none;
+    border-bottom: 2px solid grey;
+ }
+
+.login .login100-form{
+    margin: 0 45px auto;
+}
+
+.login100-form-btn {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #f5eded;
+    line-height: 1.2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+     min-width: 98%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #121113;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .login100-form-title {
+    font-family: Poppins-Medium;
+    font-size: 30px;
+    color: grey;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    padding-top: 45px;
+  }
+
+  .login100-form-logo{
+    display: flex;
+    color:black;
+     
+  }
+
+  .login100-form-logo img{
+        
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 2px;
+    left: 13px;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .login100-form-logo  span{
+    position: relative;
+    left: 55px;
+  }
+  .logout{
+    /* display: none; */
+    background-color: white;
+    box-shadow:2px 2px 5px grey; 
+    position: relative;
+    top: 50px;
+    padding: 15px;
+    border-radius: 13px;
+    width: 100%;
+  }
+
+  .logout button{
+    width: 100%;
+    background-color: grey;
+    border-style: none;
+    border-radius: 20px;
+    margin: 2px;
+  }
+
+  @media (max-width: 576px) {
+    .wrap-login100 {
+      padding: 55px 15px 37px 15px;
+    }
+  }
